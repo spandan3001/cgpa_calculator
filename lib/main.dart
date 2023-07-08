@@ -46,7 +46,6 @@ class _SGPAHomePageState extends State<SGPAHomePage> {
   void _calculateSGPA() {
     double totalCredits = 0.0;
     double totalGradePoints = 0.0;
-
     for (int i = 0; i < _subjectCredits.length; i++) {
       double credit = _subjectCredits[i];
       double grade = _subjectGrades[i];
